@@ -1,0 +1,26 @@
+nav ul li #servicos{
+    font-weight: 900;
+}
+
+article.servicos-conteudo{
+    display:flex;
+}
+
+
+section.servicos h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+article .conteudo-texto{
+    margin-left: 60px;
+}
+
+article .conteudo-texto h2{
+    text-transform: uppercase;
+}
+
+.container article.servicos-conteudo:last-child{
+    margin-bottom: 100px;
+}

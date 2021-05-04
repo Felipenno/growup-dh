@@ -1,0 +1,33 @@
+nav ul li #sobre{
+    font-weight: 900;
+}
+
+section.introducao-sobre{
+    padding: 50px auto;
+}
+
+.introducao-sobre .intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.introducao-sobre h1{
+    color: #009688;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+section.video-sobre iframe{
+    width: 100%;
+    height: 600px;
+}
+
+.sobre-objetivos{
+    margin: 100px auto;
+}
+
+.sobre-objetivos article{
+    text-align: center;
+    margin-top: 50px;
+}

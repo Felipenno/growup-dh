@@ -1,0 +1,46 @@
+nav ul li #orcamento{
+    font-weight: 900;
+}
+
+.orcamento {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orcamento form input:not([type="radio"]):not([type="checkbox"]),
+.orcamento form textarea,
+.orcamento form select {
+    width: 100%;
+    padding: 5px;
+}
+
+.orcamento form fieldset {
+    margin: 15px 0;
+    border-color: #fff;
+}
+
+.orcamento form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.orcamento form label {
+    margin: 10px 0 5px;
+    display: inline-block;
+}
+
+.orcamento form button {
+    border: none;
+    background-color: #00796B;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.orcamento form input:not([type="radio"]):not([type="checkbox"]):focus,
+.orcamento form textarea:focus,
+.orcamento form select:focus {
+    outline-color: #00796B;
+}

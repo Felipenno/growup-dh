@@ -1,0 +1,11 @@
+
+section.banner {
+    padding: 50px;
+}
+
+section.banner .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+

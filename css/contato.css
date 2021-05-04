@@ -1,0 +1,47 @@
+
+
+nav ul li #contato{
+    font-weight: 900;
+}
+
+.contato{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato form input:not([type="radio"]),
+.contato form textarea{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.contato form input:not([type="radio"]):focus,
+.contato form textarea:focus{ 
+    outline-color: #00796B;
+}
+
+.contato form label{
+    margin: 10px 0 5px;
+    display: inline-block; /* quando o display for inline espaçamentos não funcionam */
+}
+
+.contato form button{
+    border: none;
+    background-color: tan;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.contato .info{
+    padding: 15px 30px;
+}
+
+.contato .info iframe{
+    max-width: 100%;
+    width: 700px;
+    height: 300px;
+}
