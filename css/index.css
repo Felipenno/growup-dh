@@ -9,3 +9,17 @@ section.banner .container {
     align-items: center;
 }
 
+@media (max-width: 900px){
+    section.banner .container{
+        flex-wrap:  wrap;
+    }
+
+    section.banner .container .texto{
+        text-align: center;
+    }
+
+    section.banner{
+        padding: 0 40px;
+    }
+}
+

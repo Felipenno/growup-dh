@@ -1,5 +1,4 @@
 
-
 nav ul li #contato{
     font-weight: 900;
 }
@@ -7,6 +6,11 @@ nav ul li #contato{
 .contato{
     display: flex;
     justify-content: space-between;
+}
+
+section.section-contato h1{
+    font-size: 50px;
+    text-transform: uppercase;
 }
 
 .contato form input:not([type="radio"]),

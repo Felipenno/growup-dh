@@ -7,6 +7,11 @@ nav ul li #orcamento{
     justify-content: space-between;
 }
 
+section.section-orcamento h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
 .orcamento form input:not([type="radio"]):not([type="checkbox"]),
 .orcamento form textarea,
 .orcamento form select {
