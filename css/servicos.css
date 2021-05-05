@@ -24,3 +24,22 @@ article .conteudo-texto h2{
 .container article.servicos-conteudo:last-child{
     margin-bottom: 100px;
 }
+
+@media (max-width: 900px){
+
+    section.servicos .container{
+        justify-content: center;
+        padding: 0px 20px;
+    }
+
+    .servicos-conteudo{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .servicos-conteudo img{
+        max-width: 100%;
+    }
+
+
+}

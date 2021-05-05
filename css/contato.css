@@ -49,3 +49,15 @@ section.section-contato h1{
     width: 700px;
     height: 300px;
 }
+
+@media (max-width: 900px){
+    section.section-contato .container{
+        justify-content: center;
+        padding: 0px 20px;
+    }
+
+    section.section-contato .container .contato{
+        flex-wrap: wrap;
+        padding: 10px ;
+    }
+}

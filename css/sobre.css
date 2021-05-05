@@ -31,3 +31,31 @@ section.video-sobre iframe{
     text-align: center;
     margin-top: 50px;
 }
+
+@media (max-width: 900px){
+    
+    section.introducao-sobre .intro{
+        flex-wrap: wrap;
+    }
+
+    section.introducao-sobre .intro img {
+        max-width: 100%;
+      
+    }
+
+    section.introducao-sobre{
+        padding: 20px;
+    }
+
+    section.video-sobre .container{
+        justify-content: center;
+        padding: 10px;
+    }
+
+    section.video-sobre .container iframe{
+        max-width: 100%;
+        width: 350px;
+        height: 250px;
+    }
+}
+

@@ -49,3 +49,16 @@ section.section-orcamento h1{
 .orcamento form select:focus {
     outline-color: #00796B;
 }
+
+@media (max-width: 900px) {
+    .section-orcamento .container{
+        justify-content: center;
+        padding: 0px 20px;
+    }
+
+    .orcamento{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+}
